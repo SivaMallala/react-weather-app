@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-weather-app/static/css/main.cb576972.css",
+    "main.js": "/react-weather-app/static/js/main.a8804596.js",
+    "static/js/453.15c8c274.chunk.js": "/react-weather-app/static/js/453.15c8c274.chunk.js",
+    "static/media/snow.png": "/react-weather-app/static/media/snow.9957456da0445490c376.png",
+    "static/media/rain.png": "/react-weather-app/static/media/rain.7610299be6da6fba0d64.png",
+    "static/media/cloudy.png": "/react-weather-app/static/media/cloudy.20f0cc1d2fa7fabb49bb.png",
+    "static/media/wind.png": "/react-weather-app/static/media/wind.639516cceb13a7a9b5c9.png",
+    "static/media/loupe.png": "/react-weather-app/static/media/loupe.c6544d3156a8bde3d076.png",
+    "static/media/humidity.png": "/react-weather-app/static/media/humidity.da5fa89930d7bc317866.png",
+    "static/media/sun.png": "/react-weather-app/static/media/sun.b972dcf61eb381f03551.png",
+    "static/media/drizzle.png": "/react-weather-app/static/media/drizzle.f009e441a604361a2783.png",
+    "index.html": "/react-weather-app/index.html",
+    "main.cb576972.css.map": "/react-weather-app/static/css/main.cb576972.css.map",
+    "main.a8804596.js.map": "/react-weather-app/static/js/main.a8804596.js.map",
+    "453.15c8c274.chunk.js.map": "/react-weather-app/static/js/453.15c8c274.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb576972.css",
+    "static/js/main.a8804596.js"
+  ]
+}
