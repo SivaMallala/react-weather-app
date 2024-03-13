@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState ,useRef ,useEffect } from 'react'
 import './Weatherapp.css'
 import search_icon from '../Assets/loupe.png'
 import sun from '../Assets/sun.png'
@@ -12,6 +12,13 @@ import wind from '../Assets/wind.png'
 const WeatherApp = () => {
 let api_key = '2f87eeb2b5450ad6354d1a65846ff57a';
 const [wicon ,setWicon] = useState(sun)
+const inputref = useRef(null)
+useEffect(() => {
+  return () => {
+    inputref.current.focus()
+  }
+}, [])
+
 
 
  const search =async ()=>{
@@ -53,7 +60,7 @@ const [wicon ,setWicon] = useState(sun)
     <div className='container'>
         
         <div className='top-bar'>
-            <input type='text' className='city-name' placeholder='Search city'/>
+            <input type='text' ref={inputref} className='city-name' placeholder='Search City'/>
             <div className='search-icon' onClick={()=>{search()}}>
                 <img src={search_icon} alt='icon' />
             </div>
